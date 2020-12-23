@@ -5,10 +5,10 @@ semanticClass: theme.dracula
 semanticHighlighting: true
 dracula:
   base:
-    - &BG "#1E2029"
+    - &BG "#141821"
     - &FG "#FAFAFA"
-    - &SELECTION "#44475A"
-    - &COMMENT "#5062A3"
+    - &SELECTION "#1B2230"
+    - &COMMENT "#42649F"
     - &CYAN "#7AF4FF"
     - &GREEN "#32FA72"
     - &ORANGE "#FFAC51"
@@ -26,7 +26,7 @@ dracula:
     - &COLOR5 "#FF5DD4"
     - &COLOR6 "#7AF4FF"
     - &COLOR7 "#FAFAFA"
-    - &COLOR8 "#5062A3"
+    - &COLOR8 "#42649F"
     - &COLOR9 "#FF6E6E"
     - &COLOR10 "#55FF7D"
     - &COLOR11 "#FFFD89"
@@ -40,12 +40,12 @@ dracula:
     - &TEMP_PROPERTY_QUOTES "#7AF4FF"
 
   other:
-    - &LineHighlight "#44475A75"
+    - &LineHighlight "#222A3D70"
     - &NonText "#FFFFFF1A"
     - &WHITE "#FFFFFF"
-    - &TAB_DROP_BG "#44475A70"
-    - &BGLighter "#262C46"
-    - &BGLight "#2E3046"
+    - &TAB_DROP_BG "#222A3D70"
+    - &BGLighter "#1A202B"
+    - &BGLight "#171C26"
     - &BGDark "#1C202C"
     - &BGDarker "#151722"
 

@@ -1,35 +1,35 @@
 {
-	"name": "dracula",
-	"version": "1.0.0",
-	"displayName": "Dracula",
-	"description": "My version of the Dracula theme",
-	"publisher": "ivanmtoroc",
-	"license": "MIT",
-	"scripts": {
-		"build": "node ./scripts/build.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ivanmtoroc/dracula.git"
-	},
-	"devDependencies": {
-		"js-yaml": "^3.14.1",
-		"prettier": "^2.2.1"
-	},
-	"engines": {
-		"vscode": "^1.13.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"contributes": {
-		"themes": [
-			{
-				"label": "Dracula",
-				"uiTheme": "vs-dark",
-				"path": "./theme/dracula.json"
-			}
-		]
-	}
+    "name": "dracula",
+    "version": "1.0.0",
+    "displayName": "Dracula",
+    "description": "My version of the Dracula theme",
+    "publisher": "ivanmtoroc",
+    "license": "MIT",
+    "scripts": {
+        "build": "node ./scripts/build.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ivanmtoroc/dracula.git"
+    },
+    "devDependencies": {
+        "js-yaml": "^3.14.1",
+        "prettier": "^2.2.1"
+    },
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dracula",
+                "uiTheme": "vs-dark",
+                "path": "./theme/dracula.json"
+            }
+        ]
+    }
 }
